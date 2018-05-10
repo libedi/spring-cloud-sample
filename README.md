@@ -15,7 +15,7 @@ Spring-Cloud Sample Project
  - Hystrix가 API 서버군 별 체크라면, Ribbon 은 API 서버별 체크
  - @LoadBalanced RestTemplate 또는 "Spring-Cloud-Feign" 을 통해 사용가능.
 
-3. Eureka : API 서버정보 저장소(Service Discovery)
+3. Eureka : API 서버 검색기(Service Discovery)
  - 각 API 서버는 하드코딩 된 서버URL/포트가 아닌 Eureka 서버를 통한 URL/포트 정보를 제공받아 사용.
  - Eureka 서버와 Eureka Client 로 구분.
  - 각 API 서버는 Eureka Client 를 구현해야 함.
