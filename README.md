@@ -28,7 +28,7 @@ Spring-Cloud Sample Project
 
 ## 5. Spring-Cloud-Feign : REST Client
  - API Gateway 내 서버들이 서로 호출시 Hystrix, Ribbon, Eureka Client 기능을 수행하도록 하는 라이브러리.
- - 인터페이스에 @FeignClient() 애노테이션을 설정하고 abstract method에 @RequestMapping() 을 수행하는 것으로 끝.(오오..)
+ - 인터페이스에 `@FeignClient()` 애노테이션을 설정하고 abstract method에 `@RequestMapping()` 을 수행하는 것으로 끝.(오오..)
  - Eureka Client가 구현되지 않은 외부 API 호출시, Eureka 기능을 disabled 시키고 호출할 수 있다.
 
 ## 6. Spring-Cloud-Config : 설정파일을 외부로!
